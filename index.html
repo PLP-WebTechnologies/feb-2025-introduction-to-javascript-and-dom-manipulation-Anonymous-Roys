@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation with JavaScript</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-title">DOM Manipulation with JavaScript</h1>
+        <p>Learn how to dynamically update webpage content and style</p>
+    </header>
+    
+    <section id="text-manipulation">
+        <h2>Text Manipulation</h2>
+        <p id="changeable-text">This text will change when you click the button below.</p>
+        <button id="change-text-btn">Change Text</button>
+    </section>
+    
+    <section id="style-manipulation">
+        <h2>Style Manipulation</h2>
+        <p id="style-text">This paragraph's style will change when you click the button.</p>
+        <button id="change-style-btn">Apply Highlight</button>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </section>
+    
+    <section id="element-manipulation">
+        <h2>Element Manipulation</h2>
+        <div id="item-list">
+            <!-- List items will be added here dynamically -->
+        </div>
+        <input type="text" id="item-input" placeholder="Enter an item">
+        <button id="add-item-btn">Add Item</button>
+        <button id="remove-item-btn">Remove Last Item</button>
+    </section>
+    
+    <section id="event-handling">
+        <h2>Event Handling</h2>
+        <p>Mouse position: <span id="mouse-position">Move your mouse over this section</span></p>
+        <div id="click-area" style="height: 100px; background-color: #e0e0e0; display: flex; justify-content: center; align-items: center; border-radius: 4px;">
+            Click anywhere in this area
+        </div>
+        <p id="click-count">Click count: 0</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 JavaScript DOM Manipulation Demo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
